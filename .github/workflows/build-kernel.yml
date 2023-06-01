@@ -7,7 +7,7 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'onettboots/bool-x_xiaomi_raphael'
+        default: 'donvito007/kernel_xiaomi_raphael_bool-x'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
@@ -15,7 +15,7 @@ on:
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'raphael_defconfig'
+        default: 'yomi_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
