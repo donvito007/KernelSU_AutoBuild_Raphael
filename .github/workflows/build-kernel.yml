@@ -7,15 +7,15 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'donvito007/kernel_xiaomi_raphael_bool-x'
+        default: 'donvito007/Kernel_Xiaomi_SM8150_R'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: '13.0-ksu'
+        default: 'VK-VI'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'yomi_defconfig'
+        default: 'raphael_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
