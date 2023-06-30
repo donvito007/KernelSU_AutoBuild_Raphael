@@ -7,7 +7,7 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'donvito007/Kernel_Xiaomi_SM8150_Raphael'
+        default: 'donvito007/DoMi_kernelsu_raphael/'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
@@ -27,7 +27,7 @@ on:
       CLANG_URL:
         description: 'Clang URL'
         required: true
-        default: 'https://github.com/kdrag0n/proton-clang/archive/refs/tags/20210522.tar.gz'
+        default: 'https://github.com/kdrag0n/proton-clang/'
       USE_KERNELSU:
         description: 'Use KernelSU'
         required: true
